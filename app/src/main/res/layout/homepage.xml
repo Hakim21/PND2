@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232c3d"
+    tools:context="hakimpje40.pnd.Homepage">
+
+    <RelativeLayout
+        android:id="@+id/Relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignLeft="@+id/logInbutton"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/logInbutton"
+            android:layout_marginTop="103dp"
+            app:srcCompat="@drawable/bib_icon"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="98dp"
+            android:contentDescription="logo"/>
+
+        <Button
+            android:id="@+id/logInbutton"
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/createAccount"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="39dp"
+            android:background="#3467d6"
+            android:clickable="true"
+            android:text="Login"
+            android:textColor="#ffffff"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="318dp" />
+
+        <Button
+            android:id="@+id/createAccount"
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/logInbutton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/logInbutton"
+            android:layout_gravity="center"
+            android:layout_marginBottom="38dp"
+            android:background="#25a15f"
+            android:clickable="true"
+            android:text="create  account"
+            android:textColor="#ffffff"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="390dp"
+
+            />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
