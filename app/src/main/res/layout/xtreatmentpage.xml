@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".XTreatmentPage"
+    android:background="#232c3d">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="266dp"
+            android:layout_height="37dp"
+            android:text=" Name of clicked Med"
+            android:textSize="25dp"
+            android:textColor="#ffffff"/>
+
+        <ImageView
+            android:id="@+id/cancelTreatment2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/editText5"
+            android:layout_marginBottom="21dp"
+            app:srcCompat="@drawable/cancel"
+            android:layout_alignLeft="@+id/editText5" />
+
+        <ImageView
+            android:id="@+id/confirmTreatment2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/cancelTreatment2"
+            android:layout_marginEnd="63dp"
+            app:srcCompat="@drawable/make_it"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="63dp" />
+
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="98dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Type"
+            android:layout_alignParentLeft="true"
+            tools:ignore="RtlCompat" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editText5"
+            android:layout_marginTop="171dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Intake advice"
+            android:layout_alignLeft="@+id/editText5" />
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/editText5"
+            android:layout_marginBottom="219dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="Desc"
+            android:layout_alignLeft="@+id/editText5" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="74dp"
+            android:layout_height="71dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/editText5"
+            android:layout_marginBottom="119dp"
+            app:srcCompat="@drawable/set_time"
+            android:layout_alignLeft="@+id/editText5"
+            android:background="#232c3d"/>
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

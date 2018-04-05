@@ -86,7 +86,7 @@
             />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/confirmTreatment"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_alignEnd="@+id/textView6"
@@ -96,12 +96,12 @@
             app:srcCompat="@drawable/make_it" />
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/cancelTreatment"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_alignLeft="@+id/editText10"
             android:layout_alignStart="@+id/editText10"
-            android:layout_alignTop="@+id/imageView3"
+            android:layout_alignTop="@+id/confirmTreatment"
             app:srcCompat="@drawable/cancel" />
 
         <ImageView
