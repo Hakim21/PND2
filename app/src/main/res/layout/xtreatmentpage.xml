@@ -29,12 +29,11 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="98dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="81dp"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="Type"
-            android:layout_alignParentLeft="true"
             tools:ignore="RtlCompat" />
 
         <EditText
@@ -43,23 +42,21 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignStart="@+id/editText5"
-            android:layout_marginTop="171dp"
+            android:layout_marginTop="151dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Intake advice"
-            android:layout_alignLeft="@+id/editText5" />
+            android:text="Intake advice" />
 
         <EditText
             android:id="@+id/editText11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
             android:layout_alignStart="@+id/editText5"
-            android:layout_marginBottom="219dp"
+            android:layout_marginTop="221dp"
             android:ems="10"
             android:inputType="textMultiLine"
-            android:text="Desc"
-            android:layout_alignLeft="@+id/editText5" />
+            android:text="Desc" />
 
 
         <ImageView
@@ -77,7 +74,7 @@
             android:layout_height="55dp"
             android:layout_alignParentBottom="true"
             android:layout_alignStart="@+id/editText5"
-            android:layout_marginBottom="54dp"
+            android:layout_marginBottom="95dp"
             app:srcCompat="@drawable/cancel" />
 
 
@@ -87,8 +84,19 @@
             android:layout_height="50dp"
             android:layout_alignParentBottom="true"
             android:layout_alignStart="@+id/editText5"
-            android:layout_marginBottom="152dp"
+            android:layout_marginBottom="171dp"
             app:srcCompat="@drawable/set_time" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="22dp"
+            android:layout_toStartOf="@+id/confirmTreatment2"
+            android:background="#ff0000"
+            android:text="DELETE"
+            android:textColor="#ffffff" />
 
 
     </RelativeLayout>
