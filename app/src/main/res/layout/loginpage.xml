@@ -80,6 +80,19 @@
             android:background="#3467d6"
             android:text="Login"
             android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView"
+            android:layout_marginBottom="192dp"
+            android:text="Forgot your Password ?"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_alignLeft="@+id/textView" />
+
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
