@@ -22,27 +22,6 @@
             android:textSize="25dp"
             android:textColor="#ffffff"/>
 
-        <ImageView
-            android:id="@+id/cancelTreatment2"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignStart="@+id/editText5"
-            android:layout_marginBottom="21dp"
-            app:srcCompat="@drawable/cancel"
-            android:layout_alignLeft="@+id/editText5" />
-
-        <ImageView
-            android:id="@+id/confirmTreatment2"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignTop="@+id/cancelTreatment2"
-            android:layout_marginEnd="63dp"
-            app:srcCompat="@drawable/make_it"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="63dp" />
-
 
         <EditText
             android:id="@+id/editText5"
@@ -82,16 +61,34 @@
             android:text="Desc"
             android:layout_alignLeft="@+id/editText5" />
 
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="74dp"
-            android:layout_height="71dp"
+
+        <ImageView
+            android:id="@+id/confirmTreatment2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/cancelTreatment2"
+            android:layout_marginEnd="77dp"
+            app:srcCompat="@drawable/make_it" />
+
+        <ImageView
+            android:id="@+id/cancelTreatment2"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
             android:layout_alignParentBottom="true"
             android:layout_alignStart="@+id/editText5"
-            android:layout_marginBottom="119dp"
-            app:srcCompat="@drawable/set_time"
-            android:layout_alignLeft="@+id/editText5"
-            android:background="#232c3d"/>
+            android:layout_marginBottom="54dp"
+            app:srcCompat="@drawable/cancel" />
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/editText5"
+            android:layout_marginBottom="152dp"
+            app:srcCompat="@drawable/set_time" />
 
 
     </RelativeLayout>

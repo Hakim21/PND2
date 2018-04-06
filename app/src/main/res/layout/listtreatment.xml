@@ -54,10 +54,10 @@
             android:layout_alignStart="@+id/textView10"
             android:layout_marginTop="197dp"
             android:background="@android:color/darker_gray"
-            android:text="treatment B"
+            android:text="Treatment B"
             android:textColor="#ffffff"
             android:textSize="20dp"
-            tools:text="treatment B"
+            tools:text="Treatment B"
             android:layout_alignLeft="@+id/textView10" />
 
         <TextView
@@ -71,7 +71,7 @@
             android:text="treatment C"
             android:textColor="#ffffff"
             android:textSize="20dp"
-            tools:text="treatment C"
+            tools:text="Treatment C"
             android:layout_alignLeft="@+id/textView11" />
 
 

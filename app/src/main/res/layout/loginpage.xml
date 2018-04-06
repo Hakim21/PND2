@@ -23,7 +23,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="20dp"
-            android:text=" Login With Email "
+            android:text=" Log In With Email "
             android:textColor="#ffffff"
             android:textSize="20dp" />
 
@@ -80,7 +80,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:background="#3467d6"
-            android:text="Login"
+            android:text="Log In"
             android:textColor="#ffffff" />
 
         <TextView

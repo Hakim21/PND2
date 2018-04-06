@@ -97,8 +97,8 @@
 
         <ImageView
             android:id="@+id/cancelTreatment"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
             android:layout_alignLeft="@+id/editText10"
             android:layout_alignStart="@+id/editText10"
             android:layout_alignTop="@+id/confirmTreatment"
