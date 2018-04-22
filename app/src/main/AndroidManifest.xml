@@ -4,7 +4,6 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-
     <application
         android:allowBackup="true"
         android:icon="@drawable/bib_icon"
@@ -25,6 +24,7 @@
         <activity android:name=".Mainpage" />
         <activity android:name=".ListTreatment" />
         <activity android:name=".XTreatmentPage" />
+        <activity android:name=".resetPassword"></activity>
     </application>
 
 </manifest>

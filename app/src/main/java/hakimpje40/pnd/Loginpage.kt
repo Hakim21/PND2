@@ -12,6 +12,7 @@ import android.widget.Toast
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
+import kotlinx.android.synthetic.main.loginpage.*
 
 
 class Loginpage : AppCompatActivity() {
@@ -24,18 +25,22 @@ class Loginpage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.loginpage)
 
+
         val loginBtn = findViewById<View>(R.id.login2) as Button
 
         val toSignUp = findViewById<View>(R.id.textView12) as TextView
 
-
         loginBtn.setOnClickListener(View.OnClickListener {
             view -> login()
         })
-
         toSignUp.setOnClickListener(View.OnClickListener {
             view -> toSignUpPage()
         })
+
+        forgetPassword.setOnClickListener {
+            val i = Intent(this, resetPassword::class.java)
+            startActivity(i)
+        }
 
     }
 
@@ -86,6 +91,8 @@ class Loginpage : AppCompatActivity() {
     private fun toSignUpPage () {
         startActivity(Intent(this, Signuppage::class.java))
     }
+
+
 }
 
 
