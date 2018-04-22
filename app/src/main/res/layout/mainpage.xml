@@ -12,7 +12,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/welcomeUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+
+            />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -27,8 +39,9 @@
             android:id="@+id/addTreatmentbutton"
             android:layout_width="285dp"
             android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
+            android:layout_marginBottom="205dp"
             android:background="#25a15f"
             android:text="Add Treatment"
             android:textColor="#ffffff" />
@@ -39,7 +52,7 @@
             android:layout_height="50dp"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="156dp"
+            android:layout_marginBottom="134dp"
             android:background="#3467d6"
             android:text="List Treatment"
             android:textColor="#ffffff" />
@@ -50,7 +63,7 @@
             android:layout_height="50dp"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="80dp"
+            android:layout_marginBottom="67dp"
             android:background="#25a15f"
             android:text="Edit Treatment"
             android:textColor="#ffffff" />

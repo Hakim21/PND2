@@ -1,8 +1,8 @@
 package hakimpje40.pnd
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.addtreatmentpage.*
 
 class Addtreatmentpage : AppCompatActivity() {
@@ -13,7 +13,7 @@ class Addtreatmentpage : AppCompatActivity() {
 
 
         /// click / to add treatment, go to Listed treatments
-        confirmTreatment.setOnClickListener{
+        this.confirmTreatment.setOnClickListener{
             val i = Intent(this, ListTreatment::class.java)
             startActivity(i)
         }

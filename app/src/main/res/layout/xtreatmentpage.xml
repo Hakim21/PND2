@@ -45,7 +45,8 @@
             android:layout_marginTop="151dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Intake advice" />
+            android:text="Intake advice"
+            android:layout_alignLeft="@+id/editText5" />
 
         <EditText
             android:id="@+id/editText11"
@@ -56,7 +57,8 @@
             android:layout_marginTop="221dp"
             android:ems="10"
             android:inputType="textMultiLine"
-            android:text="Desc" />
+            android:text="Desc"
+            android:layout_alignLeft="@+id/editText5" />
 
 
         <ImageView
@@ -66,7 +68,9 @@
             android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/cancelTreatment2"
             android:layout_marginEnd="77dp"
-            app:srcCompat="@drawable/make_it" />
+            app:srcCompat="@drawable/make_it"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="77dp" />
 
         <ImageView
             android:id="@+id/cancelTreatment2"
@@ -75,7 +79,8 @@
             android:layout_alignParentBottom="true"
             android:layout_alignStart="@+id/editText5"
             android:layout_marginBottom="95dp"
-            app:srcCompat="@drawable/cancel" />
+            app:srcCompat="@drawable/cancel"
+            android:layout_alignLeft="@+id/editText5" />
 
 
         <ImageView
@@ -85,7 +90,8 @@
             android:layout_alignParentBottom="true"
             android:layout_alignStart="@+id/editText5"
             android:layout_marginBottom="171dp"
-            app:srcCompat="@drawable/set_time" />
+            app:srcCompat="@drawable/set_time"
+            android:layout_alignLeft="@+id/editText5" />
 
         <Button
             android:id="@+id/button2"
@@ -96,7 +102,8 @@
             android:layout_toStartOf="@+id/confirmTreatment2"
             android:background="#ff0000"
             android:text="DELETE"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:layout_toLeftOf="@+id/confirmTreatment2" />
 
 
     </RelativeLayout>
