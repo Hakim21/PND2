@@ -15,9 +15,11 @@ import com.google.firebase.auth.FirebaseAuth
 
 class resetPassword : AppCompatActivity() {
 
+
     private lateinit var passwordEmail: EditText
     private lateinit var resetPassword: Button
     private lateinit var firebaseAuth: FirebaseAuth
+
 
 
 
