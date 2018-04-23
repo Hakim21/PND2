@@ -31,6 +31,7 @@ class resetPassword : AppCompatActivity() {
         resetPassword = findViewById(R.id.btnPasswordRest) as Button
         firebaseAuth = FirebaseAuth.getInstance()
 
+
         resetPassword.setOnClickListener(object: View.OnClickListener{
             override fun onClick(view:View) {
                 val useremail = passwordEmail.getText().toString().trim()
